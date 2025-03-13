@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="_%Kt5DHROZZ%|(AWX]Ku" x="225" y="20"><statement name="HANDLER"><block type="device_show_number" id="3?Mn;{yo}+q*DQd`--bf"><value name="number"><shadow type="math_number" id="+-c7@]yLfA)Vl_%`#@!!"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="^:prkg(W$JOO0B{-MJAa"><value name="name"><shadow type="analog_read_write_pin_shadow" id="X4j}F.+6BOK5EkijS($L"><field name="pin">AnalogPin.P0</field></shadow></value></block></value><next><block type="controls_if" id="oY-IB-ty3|-Z}Hj.WW%T"><mutation elseif="4" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="BVLc}6!wqY=U/tfur%IC"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Z(O%(Etq9r74{MljTJro"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="l%qRx:qMpv$|,oixvDH5" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="RlC1t1?I[F?dE~Lk8av4"><value name="name"><shadow type="analog_read_write_pin_shadow" id=".Wsqb31acCVzp3/vVg*1"><field name="pin">AnalogPin.P0</field></shadow></value></block></value><value name="B"><shadow type="math_number" id=")[X@CBGz^o;MFlO=_TzS"><field name="NUM">500</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="NDY:irJWp=B#z@95IL)D"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="=TCkd^L9WINm^4~23^p("><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="}g@YA/GMkGfI@t)t[zNH"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="?wYmvZgRAQlqW(^ewmRx" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="]$LRe*Cu4OR(PRwP[%kP"><value name="name"><shadow type="analog_read_write_pin_shadow" id="i_,.C`p.tb.+4WZp6hn)"><field name="pin">AnalogPin.P0</field></shadow></value></block></value><value name="B"><shadow type="math_number" id=")fUTm.2|h2~c]DB(IF;g"><field name="NUM">600</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="W`$cnBGk9?WaP267waLW"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean" id="6{w!S=Y!vlDaJ_l}sq/S"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="15i_@:WT-FD?j_8!YZzc"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="Cir-0u+U)/iDwbDfpDao" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="@JGzDwVdnO29,s_$)2C,"><value name="name"><shadow type="analog_read_write_pin_shadow" id="t+GPM[;()A84SQ*g57yr"><field name="pin">AnalogPin.P0</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="YsV*i7D0|Uv`=6wI[QW5"><field name="NUM">700</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="_-6c(5~5@|g0~$$VgmP4"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # # # # #
+        `</field></block></statement><value name="IF3"><shadow type="logic_boolean" id="/VkS(fi]ql0IdysOpJ#9"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="ju-#B8faeYQ:G,SMLhvt"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="aN:}$Z!qcB+UtIXq^~!." disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="75-h1CD[$%bx[bN0uuYA"><value name="name"><shadow type="analog_read_write_pin_shadow" id="]z=1V,m7JA}Yg?F*j=O#"><field name="pin">AnalogPin.P0</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="rG4*azUGJR_Y:xkF9C_@"><field name="NUM">800</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id=";l7Z:e|T*V]y{j_yAc{Z"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><value name="IF4"><shadow type="logic_boolean" id="a,0Y{mZ+BrCEl]+=g}Cp"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="S,P*Hf]-5a@J?QhwWLkf"><field name="OP">LTE</field><value name="A"><shadow type="math_number" id="Td,:fsj1kanO:0aP0saa" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="*z~Huk[O|I,~O`?Ng?Um"><value name="name"><shadow type="analog_read_write_pin_shadow" id="T-{?!HRnt_%RA.2Ug!wH"><field name="pin">AnalogPin.P0</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="CLWBl]3-Y/qIbdo~FGK^"><field name="NUM">900</field></shadow></value></block></value><statement name="DO4"><block type="device_show_leds" id="i!X=rllY@uZ;L:yoG0R("><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="!,VF,8bQ?Ou|oTdpIQ9n"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block></xml>
